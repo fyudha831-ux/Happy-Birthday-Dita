@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Ulang Tahun 🎉</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* semua isi ditengah */
+      align-items: center;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h2 {
+      margin: 0 0 30px 0;
+      font-size: 28px; /* gedein judul */
+    }
+    button {
+      padding: 18px 36px;  /* lebih gede */
+      font-size: 20px;     /* font tombol lebih gede */
+      border: none;
+      border-radius: 12px;
+      background: #ff4e50;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s;
+      margin: 15px 0;
+    }
+    button:hover {
+      transform: scale(1.05);
+      background: #ff2e3a;
+    }
+    p {
+      margin: 15px 0 0 0;
+      font-weight: bold;
+      font-size: 18px; /* gedein teks bawah */
+    }
+  </style>
+</head>
+<body>
+  <h2>Pencet tombolnya kocak</h2>
+  <button onclick="goPage2()">Pencet tombol nya</button>
+  <p>Gedein volume jugaa 🔊</p>
+
+  <script>
+    function goPage2() {
+      window.location.href = "page2.html";
+    }
+  </script>
+</body>
+</html>
